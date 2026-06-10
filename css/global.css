@@ -16,7 +16,7 @@
   --text-secondary-color: #ffffff;
 
   --title-weight: 700;
-  --text-weighy: 400;
+  --text-weight: 400;
   --menu-text-weight: 500;
 }
 /* CSS RESET */
@@ -55,8 +55,8 @@ h1 {
   border: none;
   margin: 16px auto 32px;
 }
-@media screen and (min-width:768px){
+@media screen and (min-width: 768px) {
   .section-title h2 {
-  font-size: 32px;
-}
+    font-size: 32px;
+  }
 }
