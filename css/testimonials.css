@@ -29,8 +29,12 @@
   color: var(--secondary-color);
   line-height: 32px;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1440px) {
   .testimonial-container {
     flex-direction: row;
+    gap: 24px;
+  }
+  .testimonial-container article header p {
+    width: 384px;
   }
 }
